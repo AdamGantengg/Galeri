@@ -62,7 +62,7 @@ nav ul li a{
   }
 
   .gallery img {
-    max-width: 20%;
+    max-width: 50%;
     height: auto;
     border: 3px solid #fa00ed;
     border-radius: 5px;
@@ -89,25 +89,25 @@ nav ul li a{
   }
   
   .petal:nth-child(1) {
-    top: -25px;
-    left: 20px;
+    top: 40px;
+    left: -25px;
     rotate: -95deg;
   }
   
   .petal:nth-child(2) {
-    bottom: 55px;
-    left: 95px;
+    bottom: 15px;
+    left: 55px;
   }
   
   .petal:nth-child(3) {
-    bottom: -25px;
-    left: 85px;
+    bottom: -65px;
+    left: 60px;
     rotate: 90deg;
   }
   
   .petal:nth-child(4) {
-    bottom: 5px;
-    left: 10px;
+    bottom: -65px;
+    left: -20px;
   }
   
   .center {
@@ -116,6 +116,13 @@ nav ul li a{
     height: 50px;
     background-color: yellow;
     border-radius: 50%;
-    left: 50px;
-    top: 50px;
+    left: 20px;
+    top: 100px;
+  }
+
+  p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -35px;
   }
