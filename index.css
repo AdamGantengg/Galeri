@@ -51,9 +51,9 @@ nav ul li a{
   }
 
   .gallery {
-    display: flex;
-    grid-template-columns: repeat(3, 1fr); /* Tiga kolom gambar */
-    gap: 20px; /* Jarak antara gambar */
+    display: inline-block;
+    grid-template-columns: repeat(7, 1fr); /* Tiga kolom gambar */
+    gap: 22%; /* Jarak antara gambar */
     padding: 50px;
     background-color: #f5f5f5;
     background-color: #a20893;
@@ -125,4 +125,10 @@ nav ul li a{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: -35px;
+  }
+
+  .keisya3{
+    position:absolute;
+    max-width: 50%;
+    margin-top: -39%;
   }
